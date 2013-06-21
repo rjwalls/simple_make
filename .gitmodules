@@ -1,0 +1,3 @@
+[submodule "latexexpand"]
+	path = latexexpand
+	url = git://gitorious.org/latexpand/latexpand.git
