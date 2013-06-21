@@ -34,7 +34,7 @@ camera:
 	# if the fonts are actually embedded.
 	ps2pdf -dPDFSETTINGS=/prepress paper.pdf ./CamFiles/paper_cam.pdf
 	#
-	# Get the source
+	# Get the source, flatten to one file, and remove comments.
 	latexpand Paper.tex > CamFiles/paper_cam.tex
 	#
 	# Make the PS file
